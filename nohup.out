@@ -1,0 +1,79 @@
+=> Booting Puma
+=> Rails 8.0.1 application starting in production 
+=> Run `bin/rails server --help` for more startup options
+Puma starting in single mode...
+* Puma version: 6.6.0 ("Return to Forever")
+* Ruby version: ruby 3.4.2 (2025-02-15 revision d2930f8e7a) +PRISM [aarch64-linux]
+*  Min threads: 3
+*  Max threads: 3
+*  Environment: production
+*          PID: 63481
+* Listening on http://127.0.0.1:3000
+Use Ctrl-C to stop
+[8b42e45b-8c5f-4fc1-af24-cf4fb233507b] Started GET "/" for 111.8.143.97 at 2025-02-25 17:16:58 +0800
+[8b42e45b-8c5f-4fc1-af24-cf4fb233507b]   
+[8b42e45b-8c5f-4fc1-af24-cf4fb233507b] ActionController::RoutingError (No route matches [GET] "/"):
+[8b42e45b-8c5f-4fc1-af24-cf4fb233507b]   
+[647467b0-add3-4666-a22f-d2a669e5cbeb] Started GET "/" for 111.8.143.97 at 2025-02-25 17:17:20 +0800
+[647467b0-add3-4666-a22f-d2a669e5cbeb]   
+[647467b0-add3-4666-a22f-d2a669e5cbeb] ActionController::RoutingError (No route matches [GET] "/"):
+[647467b0-add3-4666-a22f-d2a669e5cbeb]   
+=> Booting Puma
+=> Rails 8.0.1 application starting in production 
+=> Run `bin/rails server --help` for more startup options
+Puma starting in single mode...
+* Puma version: 6.6.0 ("Return to Forever")
+* Ruby version: ruby 3.4.2 (2025-02-15 revision d2930f8e7a) +PRISM [aarch64-linux]
+*  Min threads: 3
+*  Max threads: 3
+*  Environment: production
+*          PID: 63552
+* Listening on http://127.0.0.1:3000
+Use Ctrl-C to stop
+[c1f06585-af22-4497-a3a8-5cfdea28b66b] Started GET "/" for 111.8.143.97 at 2025-02-25 17:18:37 +0800
+[c1f06585-af22-4497-a3a8-5cfdea28b66b]   
+[c1f06585-af22-4497-a3a8-5cfdea28b66b] ActionController::RoutingError (No route matches [GET] "/"):
+[c1f06585-af22-4497-a3a8-5cfdea28b66b]   
+[8cda3a3f-1b23-4cd3-a01b-d6133829a4d2] Started GET "/" for 111.8.143.97 at 2025-02-25 17:18:51 +0800
+[8cda3a3f-1b23-4cd3-a01b-d6133829a4d2]   
+[8cda3a3f-1b23-4cd3-a01b-d6133829a4d2] ActionController::RoutingError (No route matches [GET] "/"):
+[8cda3a3f-1b23-4cd3-a01b-d6133829a4d2]   
+[e3179d5c-1abb-4818-9d03-4cca19472bec] Started GET "/" for 193.68.89.10 at 2025-02-25 17:19:15 +0800
+[e3179d5c-1abb-4818-9d03-4cca19472bec]   
+[e3179d5c-1abb-4818-9d03-4cca19472bec] ActionController::RoutingError (No route matches [GET] "/"):
+[e3179d5c-1abb-4818-9d03-4cca19472bec]   
+[76fe5bf3-6d84-42c9-8196-47306d9b518d] Started GET "/" for 111.8.143.97 at 2025-02-25 17:19:43 +0800
+[76fe5bf3-6d84-42c9-8196-47306d9b518d]   
+[76fe5bf3-6d84-42c9-8196-47306d9b518d] ActionController::RoutingError (No route matches [GET] "/"):
+[76fe5bf3-6d84-42c9-8196-47306d9b518d]   
+Puma starting in single mode...
+* Puma version: 6.6.0 ("Return to Forever")
+* Ruby version: ruby 3.4.2 (2025-02-15 revision d2930f8e7a) +PRISM [aarch64-linux]
+*  Min threads: 3
+*  Max threads: 3
+*  Environment: production
+*          PID: 64515
+Puma starting in single mode...
+* Puma version: 6.6.0 ("Return to Forever")
+* Ruby version: ruby 3.4.2 (2025-02-15 revision d2930f8e7a) +PRISM [aarch64-linux]
+*  Min threads: 3
+*  Max threads: 3
+*  Environment: production
+*          PID: 64514
+* Listening on http://127.0.0.1:3001
+/usr/local/rvm/gems/ruby-3.4.2/gems/puma-6.6.0/lib/puma/binder.rb:342:in 'TCPServer#initialize': Address already in use - bind(2) for "127.0.0.1" port 3000 (Errno::EADDRINUSE)
+	from /usr/local/rvm/gems/ruby-3.4.2/gems/puma-6.6.0/lib/puma/binder.rb:342:in 'IO.new'
+	from /usr/local/rvm/gems/ruby-3.4.2/gems/puma-6.6.0/lib/puma/binder.rb:342:in 'Puma::Binder#add_tcp_listener'
+	from /usr/local/rvm/gems/ruby-3.4.2/gems/puma-6.6.0/lib/puma/binder.rb:171:in 'block in Puma::Binder#parse'
+	from /usr/local/rvm/gems/ruby-3.4.2/gems/puma-6.6.0/lib/puma/binder.rb:154:in 'Array#each'
+	from /usr/local/rvm/gems/ruby-3.4.2/gems/puma-6.6.0/lib/puma/binder.rb:154:in 'Puma::Binder#parse'
+	from /usr/local/rvm/gems/ruby-3.4.2/gems/puma-6.6.0/lib/puma/runner.rb:175:in 'Puma::Runner#load_and_bind'
+	from /usr/local/rvm/gems/ruby-3.4.2/gems/puma-6.6.0/lib/puma/single.rb:44:in 'Puma::Single#run'
+	from /usr/local/rvm/gems/ruby-3.4.2/gems/puma-6.6.0/lib/puma/launcher.rb:203:in 'Puma::Launcher#run'
+	from /usr/local/rvm/gems/ruby-3.4.2/gems/puma-6.6.0/lib/puma/cli.rb:75:in 'Puma::CLI#run'
+	from /usr/local/rvm/gems/ruby-3.4.2/gems/puma-6.6.0/bin/puma:10:in '<top (required)>'
+	from /usr/local/rvm/gems/ruby-3.4.2/bin/puma:25:in 'Kernel#load'
+	from /usr/local/rvm/gems/ruby-3.4.2/bin/puma:25:in '<main>'
+	from /usr/local/rvm/gems/ruby-3.4.2/bin/ruby_executable_hooks:22:in 'Kernel#eval'
+	from /usr/local/rvm/gems/ruby-3.4.2/bin/ruby_executable_hooks:22:in '<main>'
+Use Ctrl-C to stop
